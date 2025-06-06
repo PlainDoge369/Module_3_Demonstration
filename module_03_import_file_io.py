@@ -5,6 +5,7 @@ Date: June 2 2025
 Usage: To execute, press the play button in the VSC IDE.
 """
 # IMPORT STATEMENTS
+from math import sqrt
 
 
 # Variables used in this demonstration
@@ -13,7 +14,8 @@ square = 144
 fruits = ["apple", "banana", "cherry"]
 
 # USING IMPORTED MODULES
-
+area = math.pi * radius ** 2
+root = sqrt(square)
 
 # RANDOM
 
