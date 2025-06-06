@@ -87,3 +87,8 @@ if searched_fruit in fruits:
 else:
     print(f"{searched_fruit} is not in the list of fruits.")
 
+# iterate through a collection (list of fruit):
+# 'fruit' is a new (tempporary) variable which is 
+# available only withing the for loop block.
+for fruit in fruits:
+    print(fruit)
